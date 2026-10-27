@@ -1,6 +1,7 @@
-p = float(input("Enter Principal: "))
-r = float(input("Enter Rate: "))
-t = float(input("Enter Time: "))
+import sys
+p = float(sys.argv[1])
+r = float(sys.argv[2])
+t = float(sys.argv[3])
 
 si = (p * r * t) / 100
 
